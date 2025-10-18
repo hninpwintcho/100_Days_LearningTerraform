@@ -1,0 +1,69 @@
+{
+  "availability_zones": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "ap-southeast-7a",
+      "ap-southeast-7b"
+    ]
+  },
+  "environment": {
+    "sensitive": false,
+    "type": "string",
+    "value": "dev"
+  },
+  "internet_gateway_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "igw-0751ad474dccb65c5"
+  },
+  "public_subnet_cidrs": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "10.0.1.0/24",
+      "10.0.2.0/24"
+    ]
+  },
+  "public_subnet_ids": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "subnet-0da5d20b89bf145a0",
+      "subnet-0ec5a5fe306529831"
+    ]
+  },
+  "vpc_cidr": {
+    "sensitive": false,
+    "type": "string",
+    "value": "10.0.0.0/16"
+  },
+  "vpc_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "vpc-0fc00e1352c6693b0"
+  },
+  "web_security_group_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sg-0e9834d949e151626"
+  }
+}
